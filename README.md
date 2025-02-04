@@ -1,0 +1,1 @@
+This project presents an adaptive approach to the classic Banker's Algorithm by incorporating dynamic safety verification into resource allocation. Designed for multi-process environments, it simulates concurrent processes that request, execute, and release resources, ensuring that each allocation maintains system safety and prevents deadlocks.
