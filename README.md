@@ -11,3 +11,13 @@ Uses matrices to monitor allocated resources, maximum resource requirements, and
 
 Robust Synchronization:
 Employs advanced thread synchronization techniques to manage resource allocation, execution, and release seamlessly, avoiding race conditions and ensuring data integrity.
+
+Implementation Details
+Algorithm Enhancement:
+Building on the traditional Banker's Algorithm, this project introduces real-time safety checks to simulate the sequence of process executions. This ensures that every resource allocation keeps the system in a safe state.
+
+Process Simulation:
+Each process is represented by a thread that follows a workflow: it requests resources, simulates execution (via timed delays), and then releases the resources. A safe sequence is maintained throughout to guarantee deadlock prevention.
+
+Modular Code Structure:
+The code is divided into distinct sections—initialization, safety verification, process execution, and cleanup—to enhance readability, maintainability, and ease of debugging.
